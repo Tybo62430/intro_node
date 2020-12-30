@@ -1,29 +1,19 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Correction de l'exercice visant à implementer Mongodb dans l'application NodeJs
 
-### What is this repository for? ###
+### What was asked ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+1. Supprimer le user de votre base MongoDb atlas, et en créer un autre, cette fois en utilisant le package dotenv pour stocker les informations de connection
 
-### How do I get set up? ###
+2. Utiliser les models EJS pour créer 2 pages
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+3. Une première page doit afficher sous la forme d'un tableau la liste des Commandes présentes dans la base de données
 
-### Contribution guidelines ###
+4. La deuxième page propose un formulaire utilisé pour créer une nouvelle commande
 
-* Writing tests
-* Code review
-* Other guidelines
+5. Pour aller plus loin, vous pouvez séparer le router en services et repositories
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* gregoire.louise@lapilulerouge.io

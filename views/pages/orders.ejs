@@ -17,14 +17,17 @@
           </tr>
         </thead>
         <tbody>
+          <% orders.forEach(function(order){ %>
           <tr>
-            <% orders.forEach(function(order){ %>
             <td><%= order.userId %></td>
             <td><%= order.description %></td>
             <td><%= order.imageUrl %></td>
             <td><%= order.price %></td>
-            <% }); %>
+            <td>
+              <span style="color: red; cursor: pointer;">Delete</span>
+            </td>
           </tr>
+          <% }); %>
         </tbody>
       </table>
     </main>

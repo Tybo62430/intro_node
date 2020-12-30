@@ -9,17 +9,23 @@
     <main>
       <div class="row d-flex justify-content-center mt-2">
         <div class="col-3">
-          <form>
+          <form method="POST" action="/orders">
             <div class="form-group">
               <label for="description">Description</label>
-              <textarea name="description" cols="33" rows="5"></textarea>
+              <textarea
+                name="description"
+                id="description"
+                cols="33"
+                rows="5"
+              ></textarea>
             </div>
             <div class="form-group">
               <label for="imageUrl">Url image</label>
               <input
                 type="text"
                 class="form-control"
-                id="Urlimage"
+                id="imageUrl"
+                name="imageUrl"
                 placeholder="Url image"
               />
             </div>
@@ -29,6 +35,7 @@
                 type="text"
                 class="form-control"
                 id="userId"
+                name="userId"
                 placeholder="User Id"
               />
             </div>
@@ -38,6 +45,7 @@
                 type="number"
                 class="form-control"
                 id="price"
+                name="price"
                 placeholder="price"
               />
             </div>

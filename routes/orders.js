@@ -14,6 +14,8 @@ router.use(function (req, res, next) {
 
 router.get('/', orderController.searchOrders)
 
+router.get('/create', orderController.create)
+
 router.get('/:id', orderController.getOrderById)
 
 router.post('/', orderController.createOrder)

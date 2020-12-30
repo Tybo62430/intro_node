@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../partials/head'); %>
+  </head>
+  <body class="container">
+    <header><%- include('../partials/header'); %></header>
+
+    <main>
+      <div class="row d-flex justify-content-center mt-2">
+        <div class="col-3">
+          <form>
+            <div class="form-group">
+              <label for="description">Description</label>
+              <textarea name="description" cols="33" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="imageUrl">Url image</label>
+              <input
+                type="text"
+                class="form-control"
+                id="Urlimage"
+                placeholder="Url image"
+              />
+            </div>
+            <div class="form-group">
+              <label for="userId">User id</label>
+              <input
+                type="text"
+                class="form-control"
+                id="userId"
+                placeholder="User Id"
+              />
+            </div>
+            <div class="form-group">
+              <label for="price">Price</label>
+              <input
+                type="number"
+                class="form-control"
+                id="price"
+                placeholder="price"
+              />
+            </div>
+            <div class="row d-flex justify-content-center">
+              <button type="submit" class="btn btn-primary">valider</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer><%- include('../partials/footer'); %></footer>
+  </body>
+</html>
